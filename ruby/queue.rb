@@ -49,7 +49,7 @@ class Queue
 
   # RETURN TRUE IF QUEUE IS EMPTY, OTHERWISE FALSE
   def isEmpty
-    @front == nil
+    !@front
   end
 
   # RETURN NUMBER OF NODES IN QUEUE, E.G. 10
